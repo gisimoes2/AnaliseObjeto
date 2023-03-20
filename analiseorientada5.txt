@@ -1,0 +1,21 @@
+package giovannatividade1;
+ import java.util.Scanner;
+public class Giovannatividade1 {
+
+   
+    public static void main(String[] args) {
+      
+    Scanner ler = new Scanner(System.in);
+double salariomin, salario,conversao; 
+salariomin= 1380.0;
+        
+ System.out.print("Digite o seu salario");
+    salario= ler.nextDouble();
+conversao = (salario/salariomin);
+
+System.out.println("Voce recebe "+conversao+ "de salarios minimos");
+
+    }
+    
+}
+

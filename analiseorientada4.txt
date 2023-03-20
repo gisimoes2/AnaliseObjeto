@@ -1,0 +1,32 @@
+package giovannatividade1;
+ import java.util.Scanner;
+public class Giovannatividade1 {
+
+   
+    public static void main(String[] args) {
+      
+    Scanner ler = new Scanner(System.in);
+float IPI, cod1, valorU1, quantP1, cod2, valorU2, quantP2, formula;
+System.out.println("Informe a porcentagem do IPI a ser acrescido no valor das peças");
+IPI= ler.nextFloat();
+System.out.println("Informe o código da preimeira peça");
+cod1= ler.nextFloat();
+System.out.println("Informe o valor da primeira peça");
+valorU1= ler.nextFloat();
+System.out.println("Informe a quantidade da primeira peça");
+quantP1= ler.nextFloat();
+System.out.println("Informe o código da segunda peça");
+cod2= ler.nextFloat();
+System.out.println("Informe o valor da segunda peça");
+valorU2= ler.nextFloat();
+System.out.println("Informe a quantidade da segunda peça");
+quantP2= ler.nextFloat();
+
+formula= ((valorU1*quantP1 + valorU2*quantP2)*(IPI/100 + 1));
+
+System.out.println("O valor do IPI é"+ formula);
+
+
+    }
+    
+} 
