@@ -1,0 +1,20 @@
+package giovannatividade1;
+ import java.util.Scanner;
+public class Giovannatividade1 {
+
+   
+    public static void main(String[] args) {
+      
+    Scanner ler = new Scanner(System.in);
+   float saldo, reajuste; 
+    System.out.println("informe seu saldo");
+    saldo= ler.nextFloat();
+    
+    reajuste= (saldo-(saldo*1/100));
+    System.out.println("Seu saldo com reajuste é" + reajuste);
+   
+    
+
+    }
+    
+}
